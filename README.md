@@ -25,3 +25,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Git Recommendations
+git ...
+- status
+- branch
+    - -a (Remote branches)
+- checkout
+- pull (--rebase)
+- push
