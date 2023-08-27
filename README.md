@@ -6,9 +6,22 @@ Optionally, you could use PyCharm as an IDE
 ## Pre-Requisites 
 1. Visual Studio Code
 2. Python > 3.9
+3. DevContainer extension follow this documentation to [create a dev container using Visual Studio Code](https://code.visualstudio.com/docs/devcontainers/create-dev-container)
 
-## Install Dev Container
+## Open the project on DevContainer
 
-You simply could install DevContainer from Extensions inside of Visual Studio Code
+To start this project, just go to the tab 
 
-Aditionally, you can follow this documentation to [create a dev container using Visual Studio Code](https://code.visualstudio.com/docs/devcontainers/create-dev-container)
+View -> Command Pallet 
+
+and then look for `Dev Containers: Open Folder in Container`
+
+## Install virtual environment
+
+Steps to create a virtual environment
+```
+python -m venv venv/
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
