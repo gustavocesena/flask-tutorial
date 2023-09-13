@@ -20,7 +20,7 @@ and then look for `Dev Containers: Open Folder in Container`
 
 Steps to create a virtual environment
 ```
-python -m venv venv/
+python -m venv cari
 source venv/bin/activate
 pip install -r requirements.txt
 ```
